@@ -438,7 +438,7 @@ These are honest trade-offs, not bugs. Most are appropriate for a portfolio-scal
 
 **Vanshi** — built as a personal project to solve a real family business problem, grown into a full-stack portfolio piece.
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [vanshiiii11](https://github.com/vanshiiii11)
 - LinkedIn: [Add LinkedIn profile link here]
 
 ---
