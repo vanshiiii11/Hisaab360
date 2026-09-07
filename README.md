@@ -1,4 +1,4 @@
-# Hisaab360 💳
+# Hisaab360 
 
 > **Smart Wholesale Credit & Collections Management**
 
@@ -54,7 +54,7 @@ where they can view statements, make payments, and download invoices. A platform
 
 ## Features
 
-### 👔 Seller Dashboard
+### Seller Dashboard
 
 - **Seller Registration & Login** — bcrypt-hashed passwords, JWT sessions
 - **Customer Management** — add, edit customers; each scoped to the seller's account only
@@ -73,7 +73,7 @@ where they can view statements, make payments, and download invoices. A platform
 - **Dark / Light Theme Toggle** — CSS variable-based theme system; toggle in the top nav; preference persists across sessions
 - **Mobile-Responsive UI** — mobile bottom nav component; tested on small screens
 
-### 🧾 Customer Portal
+### Customer Portal
 
 - **Customer Login** — JWT session scoped to their seller
 - **Invoice Table** — all their invoices with status badges; **search by Invoice ID** and **filter by status** (All / Paid / Overdue / Pending / Pending Verification)
@@ -85,7 +85,7 @@ where they can view statements, make payments, and download invoices. A platform
 - **Notification History** — log of all reminders received (type, message, timestamp)
 - **Browser Push Notifications** — notified when a new invoice is issued
 
-### 🔐 Platform Admin
+### Platform Admin
 
 - **Admin Login** — separate JWT role; no seller scoping
 - **Platform Overview** — aggregate KPIs across all sellers: total sellers, customers, invoices, platform-wide billed/collected/outstanding
