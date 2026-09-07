@@ -1,0 +1,102 @@
+{
+  "sellers": [
+    {
+      "id": "SLR360",
+      "name": "Hisaab360 Wholesalers Ltd",
+      "email": "seller@hisaab360.com",
+      "password": "$2a$10$IdZBryRkDkc0T1xUfLPVx.fY/UfDQu53.JAIunmTCddfT87kNaq5W",
+      "createdAt": "2026-07-23T04:34:39.808Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST-802",
+      "sellerId": "SLR360",
+      "name": "Gupta Kirana Store",
+      "email": "gupta.store@email.com",
+      "phone": "9876543210",
+      "createdAt": "2026-07-23T04:34:39.809Z"
+    },
+    {
+      "id": "CUST-405",
+      "sellerId": "SLR360",
+      "name": "Sharma General Traders",
+      "email": "sharma.traders@email.com",
+      "phone": "9123456789",
+      "createdAt": "2026-07-23T04:34:39.809Z"
+    },
+    {
+      "id": "CUST-119",
+      "sellerId": "SLR360",
+      "name": "Verma Supermarket",
+      "email": "verma.super@email.com",
+      "phone": "9888877777",
+      "createdAt": "2026-07-23T04:34:39.809Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-40192",
+      "customerId": "CUST-802",
+      "sellerId": "SLR360",
+      "amount": 2500,
+      "purchaseDate": "2026-07-20",
+      "dueDate": "2026-08-02",
+      "penaltyRate": 2,
+      "penaltyAccrued": 0,
+      "status": "pending",
+      "description": "Rice and Flour bulk supply",
+      "paymentHistory": [],
+      "createdAt": "2026-07-23T04:34:39.809Z"
+    },
+    {
+      "id": "INV-18302",
+      "customerId": "CUST-405",
+      "sellerId": "SLR360",
+      "amount": 4000,
+      "purchaseDate": "2026-06-28",
+      "dueDate": "2026-07-13",
+      "penaltyRate": 2.5,
+      "penaltyAccrued": 100,
+      "status": "paid",
+      "description": "Refined Oil bulk cartoons",
+      "paymentHistory": [
+        {
+          "id": "PAY-1109",
+          "amount": 1000,
+          "date": "2026-07-11T04:34:39.809Z",
+          "method": "Cash"
+        },
+        {
+          "id": "PAY-JOCPKTRI1",
+          "amount": 3100,
+          "date": "2026-07-23T04:47:10.089Z",
+          "method": "Portal (Credit Card)"
+        }
+      ],
+      "createdAt": "2026-07-23T04:34:39.809Z"
+    },
+    {
+      "id": "INV-88902",
+      "customerId": "CUST-119",
+      "sellerId": "SLR360",
+      "amount": 1500,
+      "purchaseDate": "2026-07-08",
+      "dueDate": "2026-07-18",
+      "penaltyRate": 1.5,
+      "penaltyAccrued": 0,
+      "status": "paid",
+      "description": "Spices and Condiments shipment",
+      "paymentHistory": [
+        {
+          "id": "PAY-2291",
+          "amount": 1500,
+          "date": "2026-07-17T04:34:39.809Z",
+          "method": "Bank Transfer"
+        }
+      ],
+      "createdAt": "2026-07-23T04:34:39.809Z"
+    }
+  ],
+  "notifications": []
+}
